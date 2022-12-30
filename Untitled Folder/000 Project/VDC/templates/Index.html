@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  img {
+  border-radius: 50%;
+}
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+    
+    * {
+            box-sizing: border-box;
+        }
+         
+        h1 {
+            text-align:center;
+            color:rgba(43, 0, 128, 0.011);
+            -webkit-text-stroke:2px #f5f5f5;
+        }
+      
+        /* styling background image */
+        .bg-img {
+            background-image: url("https://images.pexels.com/photos/681335/pexels-photo-681335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            
+            min-height: 900px;
+            max-height:1000px; 
+            background-size: cover;
+        }
+     
+        /* Styling the form container */
+        .container {
+            position: absolute;
+            left: 28px;
+            top: 50px;
+            margin: 20px;
+            max-width: 3000px;
+            padding: 36px;
+        }
+ 
+        b {
+            color: black;
+            font-size:30px;
+            -webkit-text-stroke: 2px rgba(245, 245, 245, 0.363);
+        }
+     
+        /* Full-width input */
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 15px;
+            margin: 15px 0px;
+            border: 2px solid black;
+        }
+         
+ 
+     
+        /* Styling the submit button */
+        .btn-group button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: black; /* White text */
+  padding: 50px 54px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  position: relative;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+  tect-align:left;
+  #bottom{
+    position:absolute;
+    bottom: 100;
+    left: 100;
+}
+}
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+  tect-align:center
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+
+
+
+</style>
+</head>
+<body>
+ 
+  <div class="bg-img">
+<h1>VDC SYSTEM</h1>
+<form class="container">
+  
+
+  <img src="D:\VDC SYSTEM\vehicle detail.png" alt="vehicle detail" width="300" height="300">
+  <a href="Index.html"<button type="submit" >HOME</button></a>
+  
+  <a href="Login.html"<button type="submit" >LOGIN</button></a>
+  
+  <a href="About.html"<button type="submit" >ABOUT</button></a>
+  
+  </div>
+</form>
+</body>
+</html>

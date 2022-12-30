@@ -1,0 +1,49 @@
+<html>
+<style>
+ 
+.btn-group button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  position: relative;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+  tect-align:left;
+  #bottom{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+  tect-align:center
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+
+</style>
+<body>
+
+<h1>VEHICLE DETAILS</h1>
+
+<div class="btn-group">
+  <a href="/home"><button>Run</button></a>
+  <button>Stop</button>
+  <a href="/home"><button>Reset</button></a>
+</div>
+</body>
+</html>
